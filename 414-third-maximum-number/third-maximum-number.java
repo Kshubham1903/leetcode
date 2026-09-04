@@ -3,7 +3,7 @@ class Solution {
         Arrays.sort(nums);
         if(nums.length < 3) return nums[nums.length-1];
 
-        int secMax = nums[nums.length-1] ;
+        int secMax = 0 ;
         int max = nums[nums.length-1];
         int third = nums[nums.length-1];
         int index = 0;
